@@ -1,6 +1,6 @@
 package com.formacion.app.item.service.impl;
 
-import com.formacion.app.item.clientes.ProductoClienteRest;
+import com.formacion.app.item.service.clientes.ProductoClienteRest;
 import com.formacion.app.item.models.Item;
 import com.formacion.app.item.service.ItemService;
 import org.springframework.beans.factory.annotation.Autowired;

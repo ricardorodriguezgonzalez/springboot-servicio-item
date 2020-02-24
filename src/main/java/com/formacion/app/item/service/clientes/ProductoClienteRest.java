@@ -1,4 +1,4 @@
-package com.formacion.app.item.clientes;
+package com.formacion.app.item.service.clientes;
 
 import com.formacion.app.item.models.Producto;
 import org.springframework.cloud.openfeign.FeignClient;
