@@ -4,14 +4,12 @@ import com.formacion.app.item.clientes.ProductoClienteRest;
 import com.formacion.app.item.models.Item;
 import com.formacion.app.item.service.ItemService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
-@Service
-@Primary
+@Service("serviceFeign")
 public class ItemServiceFeignImpl implements ItemService {
 
     @Autowired
